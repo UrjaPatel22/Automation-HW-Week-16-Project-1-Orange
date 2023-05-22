@@ -1,0 +1,158 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4040703200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "verifyUserShouldLogOutSuccessFully()",
+        "description": "",
+        "id": "login-test;verifyusershouldlogoutsuccessfully()",
+        "after": [
+          {
+            "result": {
+              "duration": 170700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88125900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "UserSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 260001100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter user name \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 19
+                }
+              ],
+              "location": "UserSteps.iEnterUserName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162073900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 18
+                }
+              ],
+              "location": "UserSteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 963081400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on Login Button",
+            "match": {
+              "location": "UserSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 500581700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Click on User Profile logo",
+            "match": {
+              "location": "LoginSteps.iClickOnUserProfileLogo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1358938300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I Mouse hover on \"Logout\" and click",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iMouseHoverOnAndClick(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249492700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Verify the text \"Login Panel\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login Panel",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.verifyTheTextIsDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "\r\nAs a User I want to Login Successfully",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
